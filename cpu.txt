@@ -1,0 +1,253 @@
+Двоичный файл out/.tmp_vmlinux2 совпадает
+out/.tmp_System.map:c0518388 T mt_dfs_mmpll
+out/.tmp_System.map:c0519088 t mt_fh_hal_dfs_mmpll
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_mmpll1_gpll0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_mmpll1_gpll0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_dsi_hdmi_gpll0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_dsi_hdmi_gpll0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_1_2_gpll0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_1_2_gpll0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll2",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_1_3_gpll0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_1_3_gpll0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll3",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_1_4_gpll0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_1_4_gpll0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll4",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_1_4_gpll1_0_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_1_4_gpll1_0[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll4",
+drivers/clk/qcom/mmcc-apq8084.c:static const u8 mmcc_xo_mmpll0_1_4_gpll1_0_sleep_map[] = {
+drivers/clk/qcom/mmcc-apq8084.c:static const char *mmcc_xo_mmpll0_1_4_gpll1_0_sleep[] = {
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll0",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll1",
+drivers/clk/qcom/mmcc-apq8084.c:	"mmpll4",
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_pll mmpll0 = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll0",
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_regmap mmpll0_vote = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll0_vote",
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = (const char *[]){ "mmpll0" },
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_pll mmpll1 = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll1",
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_regmap mmpll1_vote = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll1_vote",
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = (const char *[]){ "mmpll1" },
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_pll mmpll2 = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll2",
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_pll mmpll3 = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll3",
+drivers/clk/qcom/mmcc-apq8084.c:static struct clk_pll mmpll4 = {
+drivers/clk/qcom/mmcc-apq8084.c:		.name = "mmpll4",
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_dsi_hdmi_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_dsi_hdmi_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_2_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_2_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_3_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_3_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_sleep_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0_sleep,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_sleep_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0_sleep,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll1_0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll1_0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_1_4_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_1_4_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-apq8084.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-apq8084.c:static const struct pll_config mmpll1_config = {
+drivers/clk/qcom/mmcc-apq8084.c:static const struct pll_config mmpll3_config = {
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL0] = &mmpll0.clkr,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL0_VOTE] = &mmpll0_vote,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL1] = &mmpll1.clkr,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL1_VOTE] = &mmpll1_vote,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL2] = &mmpll2.clkr,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL3] = &mmpll3.clkr,
+drivers/clk/qcom/mmcc-apq8084.c:	[MMPLL4] = &mmpll4.clkr,
+drivers/clk/qcom/mmcc-apq8084.c:	clk_pll_configure_sr_hpm_lp(&mmpll1, regmap, &mmpll1_config, true);
+drivers/clk/qcom/mmcc-apq8084.c:	clk_pll_configure_sr_hpm_lp(&mmpll3, regmap, &mmpll3_config, false);
+drivers/clk/qcom/mmcc-msm8974.c:static const u8 mmcc_xo_mmpll0_mmpll1_gpll0_map[] = {
+drivers/clk/qcom/mmcc-msm8974.c:static const char *mmcc_xo_mmpll0_mmpll1_gpll0[] = {
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-msm8974.c:static const u8 mmcc_xo_mmpll0_dsi_hdmi_gpll0_map[] = {
+drivers/clk/qcom/mmcc-msm8974.c:static const char *mmcc_xo_mmpll0_dsi_hdmi_gpll0[] = {
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:static const u8 mmcc_xo_mmpll0_1_2_gpll0_map[] = {
+drivers/clk/qcom/mmcc-msm8974.c:static const char *mmcc_xo_mmpll0_1_2_gpll0[] = {
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll2",
+drivers/clk/qcom/mmcc-msm8974.c:static const u8 mmcc_xo_mmpll0_1_3_gpll0_map[] = {
+drivers/clk/qcom/mmcc-msm8974.c:static const char *mmcc_xo_mmpll0_1_3_gpll0[] = {
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll3",
+drivers/clk/qcom/mmcc-msm8974.c:static const u8 mmcc_xo_mmpll0_1_gpll1_0_map[] = {
+drivers/clk/qcom/mmcc-msm8974.c:static const char *mmcc_xo_mmpll0_1_gpll1_0[] = {
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:	"mmpll1_vote",
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_pll mmpll0 = {
+drivers/clk/qcom/mmcc-msm8974.c:                .name = "mmpll0",
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_regmap mmpll0_vote = {
+drivers/clk/qcom/mmcc-msm8974.c:		.name = "mmpll0_vote",
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = (const char *[]){ "mmpll0" },
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_pll mmpll1 = {
+drivers/clk/qcom/mmcc-msm8974.c:                .name = "mmpll1",
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_regmap mmpll1_vote = {
+drivers/clk/qcom/mmcc-msm8974.c:		.name = "mmpll1_vote",
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = (const char *[]){ "mmpll1" },
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_pll mmpll2 = {
+drivers/clk/qcom/mmcc-msm8974.c:                .name = "mmpll2",
+drivers/clk/qcom/mmcc-msm8974.c:static struct clk_pll mmpll3 = {
+drivers/clk/qcom/mmcc-msm8974.c:                .name = "mmpll3",
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_dsi_hdmi_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_dsi_hdmi_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_1_2_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_1_2_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_1_3_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_1_3_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_1_gpll1_0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_1_gpll1_0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_1_gpll1_0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_1_gpll1_0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:	.parent_map = mmcc_xo_mmpll0_mmpll1_gpll0_map,
+drivers/clk/qcom/mmcc-msm8974.c:		.parent_names = mmcc_xo_mmpll0_mmpll1_gpll0,
+drivers/clk/qcom/mmcc-msm8974.c:static const struct pll_config mmpll1_config = {
+drivers/clk/qcom/mmcc-msm8974.c:static struct pll_config mmpll3_config = {
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL0] = &mmpll0.clkr,
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL0_VOTE] = &mmpll0_vote,
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL1] = &mmpll1.clkr,
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL1_VOTE] = &mmpll1_vote,
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL2] = &mmpll2.clkr,
+drivers/clk/qcom/mmcc-msm8974.c:	[MMPLL3] = &mmpll3.clkr,
+drivers/clk/qcom/mmcc-msm8974.c:	clk_pll_configure_sr_hpm_lp(&mmpll1, regmap, &mmpll1_config, true);
+drivers/clk/qcom/mmcc-msm8974.c:	clk_pll_configure_sr_hpm_lp(&mmpll3, regmap, &mmpll3_config, false);
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:static unsigned int mt_gpufreq_dvfs_mmpll_spd_bond;
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:	mt_gpufreq_dvfs_mmpll_spd_bond = (get_devinfo_with_index(GPUFREQ_EFUSE_INDEX) >> 12) & 0x7;
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:	gpufreq_info("@%s: mmpll_spd_bond = 0x%x\n", __func__, mt_gpufreq_dvfs_mmpll_spd_bond);
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:	if (mt_gpufreq_dvfs_mmpll_spd_bond == 0) {
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:	switch (mt_gpufreq_dvfs_mmpll_spd_bond) {
+drivers/misc/mediatek/base/power/mt6580/mt_gpufreq.c:	seq_printf(m, "mt_gpufreq_dvfs_mmpll_spd_bond = %d\n", mt_gpufreq_dvfs_mmpll_spd_bond);
+drivers/misc/mediatek/include/mt-plat/mt6580/include/mach/mt_freqhopping.h:int mt_dfs_mmpll(unsigned int target_freq);
+drivers/misc/mediatek/include/mt-plat/mt_freqhopping_drv.h:	unsigned int mmpll;
+drivers/misc/mediatek/include/mt-plat/mt_freqhopping_drv.h:	int (*mt_dfs_mmpll)(unsigned int);
+drivers/misc/mediatek/freqhopping/mt_freqhopping_drv.c:int mt_dfs_mmpll(unsigned int target_dds)
+drivers/misc/mediatek/freqhopping/mt_freqhopping_drv.c:EXPORT_SYMBOL(mt_dfs_mmpll);
+drivers/misc/mediatek/freqhopping/mt_freqhopping_drv.c:int mt_dfs_mmpll(unsigned int target_dds)
+drivers/misc/mediatek/freqhopping/mt_freqhopping_drv.c:	return g_p_fh_hal_drv->mt_dfs_mmpll(target_dds);
+drivers/misc/mediatek/freqhopping/mt_freqhopping_drv.c:EXPORT_SYMBOL(mt_dfs_mmpll);
+drivers/misc/mediatek/freqhopping/mt6580/mt_freqhopping.c:static int mt_fh_hal_dfs_mmpll(unsigned int target_dds)
+drivers/misc/mediatek/freqhopping/mt6580/mt_freqhopping.c:{				/* mmpll dfs mode */
+drivers/misc/mediatek/freqhopping/mt6580/mt_freqhopping.c:	.mmpll = FH_MIN_PLLID,
+drivers/misc/mediatek/freqhopping/mt6580/mt_freqhopping.c:	.mt_dfs_mmpll = mt_fh_hal_dfs_mmpll,
